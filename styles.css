@@ -22,7 +22,59 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 20px auto;
     border: 3px solid white;
     border-radius: 4px;
+    text-align: center;
     width: 200px;
     color: white;
     font-size: 46px;
+    padding: 15px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nome {
+    background: red;
+    color: white;
+    font-size: 14px ;
+    padding: 2px 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#usuario-nome {
+    position: absolute;
+    top: 130px;
+    left: 120px;
+}
+
+#computador-nome{
+    position: absolute;
+    top: 130px;
+    left: 400px;
+}
+
+.resultado {
+    font-size: 40px;
+    color: white;
+}
+
+.resultado > p {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.escolhas {
+    text-align: center;
+    margin: 54px 0;
+}
+.escolha {
+    border: 4px solid white;
+    border-radius: 100%;
+    margin: 0 15px;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.escolhas > img {
+  
 }
