@@ -72,9 +72,19 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0 15px;
     padding: 10px;
     display: inline-block;
+    transition: all 0.3s ease;
 
 }
 
-.escolhas > img {
-  
+.escolha:hover {
+    cursor: pointer;
+    background: red;
+}
+
+#mensagem{
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }
